@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign In | MICE 25</title>
+  <link rel="stylesheet" href="new.css" />
+</head>
+
+<body>
+  <main class="page">
+    <!-- LEFT: Dreamy artwork (NOT photo) -->
+    <section class="hero" aria-label="Dreamy artwork branding">
+      <div class="hero__art" aria-hidden="true">
+        <span class="orb orb--1"></span>
+        <span class="orb orb--2"></span>
+        <span class="orb orb--3"></span>
+
+        <span class="float float--1"></span>
+        <span class="float float--2"></span>
+        <span class="float float--3"></span>
+
+        <span class="spark spark--1"></span>
+        <span class="spark spark--2"></span>
+        <span class="spark spark--3"></span>
+
+        <span class="mesh"></span>
+      </div>
+
+      <div class="hero__badge" role="note">
+        Satu akun untuk semua Tiws.
+      </div>
+
+      <!-- optional tiny decorative text -->
+      <div class="hero__corner" aria-hidden="true">
+        MICE 25 · Dreamy Core
+      </div>
+    </section>
+
+    <!-- RIGHT: sign-in card -->
+    <section class="panel">
+      <div class="panel__inner">
+        <img
+          class="panel__logo"
+          src="Dreamy Gradient “tiws” Logo.png"
+          alt="MICE 25"
+          width="220"
+          height="88"
+        />
+
+        <h1 class="panel__title">Welcome back</h1>
+
+        <button class="btn btn--google" type="button">
+          <span class="btn__icon" aria-hidden="true">G</span>
+          Sign in with Google
+        </button>
+
+        <div class="divider" role="separator" aria-label="divider">
+          <span class="divider__line"></span>
+          <span class="divider__text">or</span>
+          <span class="divider__line"></span>
+        </div>
+
+        <form class="form" action="#" method="post">
+          <label class="field">
+            <span class="field__label">Email or username</span>
+            <input
+              class="input"
+              type="text"
+              name="username"
+              autocomplete="username"
+              placeholder="Enter email or username"
+              required
+            />
+          </label>
+
+          <div class="field field--row">
+            <span class="field__label">Password</span>
+            <a class="link" href="#" title="Forgot password">Forgot Password?</a>
+          </div>
+
+          <label class="field">
+            <span class="sr-only">Password</span>
+            <div class="inputWrap">
+              <input
+                class="input input--password"
+                type="password"
+                name="password"
+                autocomplete="current-password"
+                placeholder="Enter your password"
+                required
+              />
+              <button class="eye" type="button" aria-label="Show password">
+                👁
+              </button>
+            </div>
+          </label>
+
+          <label class="check">
+            <input type="checkbox" name="remember" />
+            <span>Remember Me</span>
+          </label>
+
+          <button class="btn btn--primary" type="submit">
+            Sign In
+          </button>
+
+          <p class="fineprint">
+            By continuing, you agree to our
+            <a class="link" href="#">Terms</a>
+            and
+            <a class="link" href="#">Privacy Policy</a>
+          </p>
+
+          <!-- ✅ Requested: Not a member? Sign up now! -->
+          <div class="signup">
+            <span class="signup__text">Not a member?</span>
+            <a class="signup__link" href="#" aria-label="Sign up now">
+              Sign up now!
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
